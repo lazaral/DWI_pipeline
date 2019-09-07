@@ -1,10 +1,14 @@
+#!/bin/env bash
+
+# This script selects nodif images from PA direction - and merges them with the AP ones
+
 echo "PREPARING NODIF IMAGES"
 
 # definitions
 dataDir=/vols/Data/disease/alazari/longitudinal_paTMS/DWI
 
 # list the subjects
-subjectList="PLM01pre PLM01post PLM03pre PLM03post PLM04pre PLM04post PLM06pre PLM06post PLM07pre PLM07post PLM08pre PLM08post PLM09pre PLM09post PLM11pre PLM11post PLM14pre PLM14post PLM15pre PLM15post"
+subjectList="P1 P2 P3"
 
 
   # Loop over subjects for AP b0

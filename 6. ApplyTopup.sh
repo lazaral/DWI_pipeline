@@ -7,11 +7,9 @@ studyDir=~/scratch/paTMS/diffusion_Jul2018/
 dataDir=$studyDir/data
 
 # list the subjects
-#subjectList="PP05 PP06 PP10 PP11 PP12 PP15 PP16 PP18 PP19 PP20 PP21 PP22"
-subjectList="PLM03pre"
-#subjectList="PP06 PP10 PP11 PP12 PP15 PP16 PP18 PP19 PP20 PP21 PP22"
+subjectList="P1 P2 P3"
 
-# running TOPUP - this should take a while
+# applying topup
 for subj in $subjectList; do
 echo "  subj: $subj"
   # make directories

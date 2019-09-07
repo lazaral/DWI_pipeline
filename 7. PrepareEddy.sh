@@ -9,8 +9,8 @@ studyDir=/vols/Scratch/alazari/paTMS/diffusion_Jul2018
 dataDir=$studyDir/data
 
 # list the subjects
-subjectList="PLM03pre"
-#subjectList="PP05"
+subjectList="P1 P2 P3"
+
 
 # Loop over subjects
 for subj in $subjectList; do
